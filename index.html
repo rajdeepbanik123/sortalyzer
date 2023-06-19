@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="searching.css"/> 
+    <title>sort and search visualizer</title>
+  </head>
+  <body>
+    <!-- <h1>Sorting Visualizer</h1> -->
+
+    <div class="heading">
+        <h1>⚡SORTING VISUALIZER⚡</h1>
+    </div>
+    <div class="container">
+      <div class="search_buttons">
+        <button class="linear" role="button" onclick="window.location.href='searching.html'">Linear Search visualizer</button>
+        <button class="binary" role="button" onclick="window.location.href='searching2.html'">Binary Search visualizer</button>
+      </div>
+      <div class="bars_container" id="bars_container"></div>
+
+      <div class="buttons_container">
+        <div class="slider_container">
+          <label for="slider" class="slider_label">Array Size</label>
+          <input type="range" id="slider" min="5" max="50" step="5" value="50" />
+        </div>
+
+        <select name="" id="speed">
+          <option value="100">Slow</option>
+          <option value="50">Medium</option>
+          <option value="10">Fast</option>
+        </select>
+        <select name="" id="algo">
+          <option value="bubble">Bubble Sort</option>
+          <option value="insertion">Insertion Sort</option>
+          <option value="heap">Heap Sort</option>
+          <option value="merge">Merge Sort</option>
+          <option value="quick">Quick Sort</option>
+          <option value="selection">Selection Sort</option>
+        </select>
+        <button id="randomize_array_btn">Randomize Array</button>
+        <button id="sort_btn">Sort</button>
+      </div>
+    </div>
+    <script src="searching.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

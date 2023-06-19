@@ -1,0 +1,147 @@
+ .heading {
+    text-align: center;
+    color: azure;
+    margin-top: 180px;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    max-width: 100vw;
+    height: 100vh;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+  }
+  
+  .bars_container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+  }
+  
+  .bar {
+    width: 10px;
+    background-color: aqua;
+    border-radius: 2px;
+    margin: 2.5px;
+  }
+  
+  body {
+    background-color: #2c3e50;
+  }
+  
+  .buttons_container > button,
+  select {
+    width: 150px;
+    height: 30px;
+    background-color: #677685;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.2s ease-in-out;
+    margin-bottom: 20px;
+  }
+  
+  button:hover {
+    background-color: #56697b;
+  }
+  
+  .bar-label {
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 12px;
+  }
+
+  /* Add this CSS code */
+.search_buttons {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+ 
+  
+  .linear {
+    background: #677685;
+    border-radius: 999px;
+    box-shadow: #5e5df0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+    margin-bottom: 10px;
+    
+    
+  }
+  
+  .binary {
+    background: #677685;
+    border-radius: 999px;
+    box-shadow: #5e5df0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+    margin-top: 10px;
+  }
+  
+  .slider_container {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  
+  .slider_label {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #677685;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .slider_label:hover {
+    background-color: #56697b;
+  }
+  .buttons_container{
+    margin-bottom: 420px;
+  }

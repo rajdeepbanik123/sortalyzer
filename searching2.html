@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="searching2.css" />
+</head>
+
+<body>
+    <br />
+     
+    <div class="heading">
+        <h1>⚡BINARY SEARCH VISUALIZER⚡</h1>
+    </div>
+  
+
+    <div id="array"></div>
+    <br /><br />
+    <div class="search_buttons">
+        <button class="linear" role="button" onclick="window.location.href='index.html'"> sorting visualizer</button>
+        <button class="binary" role="button" onclick="window.location.href='searching.html'">Linear Search visualizer</button>
+      </div>
+    <div style="text-align: center">
+        <label for="fname"></label>
+        <div id="searchResult"></div>
+        <input type="text" id="fname" name="fname" placeholder="Search" />
+        <br /><br />
+        <button id="btn" onclick="BinarySearch()">Search</button>
+        <button id="btn" onclick="generateArray()">Generate New</button>
+        <br /><br />
+        <label  id="btn" for="barsSlider">Number of Bars:</label>
+        <input
+            type="range"
+            id="barsSlider"
+            name="barsSlider"
+            min="5"
+            max="40"
+            value="20"
+            onchange="updateBarsCount(this.value)"
+        />
+        <br /><br />
+        <div id="text"></div>
+    </div>
+
+    <script src="searching2.js"></script>
+</body>
+</html>
+
